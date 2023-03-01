@@ -1,0 +1,240 @@
+.App {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    /* color: black; */
+    background-image: linear-gradient(45deg, #22d0dd, #5563aa, #4113ec);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    margin-top: 15px;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 15px;
+    
+
+  }
+  
+  
+  .validaton-message {
+    color: red;
+    font-style: 20px;
+    font-weight: 600;
+    margin-top: .6rem;
+    padding: .5rem;
+}
+
+.nav-bar{
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  color: rgb(245, 240, 240);
+  background: linear-gradient(200deg,#9343bc, #1ecbe1, #2919e6);
+  /* box-shadow: 5px 0 5px 2px black; */
+  padding: 10px;
+  font-size: 1.7rem;
+  font-family: "Cursive";
+  text-align: center;
+  margin-bottom: -14px;
+  cursor: pointer;
+}
+
+.logo{
+  margin-top: 70px;
+  margin-left:-150px;
+}
+
+.midnav-icons{
+  color: #ffffff;
+  display: flex;
+  transform: scale(1rem);
+}
+.midnav-icons div{
+  align-items: center;
+  margin: 20px; 
+}
+
+.rightside-icon{
+  color:817a85 ;
+  margin-left:600px;
+  margin-top: 10px;
+  display: flex;
+  transform: scale(1rem);
+ 
+  
+}
+.rightside-icon div{
+  align-items: center;
+  margin: 10px;
+}
+
+.sidebar{
+
+}
+ 
+  @media screen and (min-width:600px) {
+    .auth-form-container{
+      padding: 5rem ;
+      border: 1px solid;
+      border-radius: 10px;
+      margin: 0.5rem;
+    }
+    
+  }
+  
+  button {
+    background-color: rgb(94, 162, 245);
+    padding: 3%;
+    border: none;
+    border-radius: 0;
+    color: rgb(35, 35, 35);
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 25px;
+   
+  
+}
+    button:hover{
+    transform: scale(1.02) translateY(-2px);
+    background: linear-gradient(45deg,  #4113ec, #22d0dd);
+    transition: 0.5s;
+   } 
+
+  .link-btn{
+    background: none;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+ .register, 
+ .login-area{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: rgb(193, 231, 233);
+ }
+
+ .register-area {
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background: #fff;
+  position: center;
+  align-items: center;
+  box-shadow:  rgba(0, 0, 15, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  margin-bottom: auto;
+  border-radius: 20px;
+
+}
+
+.left-side,
+.login-area .login-box .left-side {
+  width: 50%;
+  padding: 3rem 3rem 2rem 1rem;
+}
+.right-side,
+.login-area .login-box .left-side {
+  width: 50%;
+  padding: 3rem 3rem 6rem 1rem;
+}
+
+.register-area .right-side img {
+  width: 100%;
+  height: auto;
+}
+
+.register-area .right-side .img-box span {
+  margin-top: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-area .right-side .img-box span a,
+.login-area .login-box .right-side .img-box span a {
+  margin-left: 10px;
+  color: #555;
+  text-decoration: none;
+}
+
+.register-area .left-side h3,
+.login-area .login-box .left-side h3 {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* login style */
+.login-area .login-box {
+  width: auto;
+  padding: 2rem;
+  margin: auto;
+  background: #fff;
+  box-shadow: rgba(0, 0, 15, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.login-area .login-box .right-side img {
+  width: 300px;
+  height: auto;
+}
+
+.login-area .login-box .right-side .img-box span {
+  margin-top: 0rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-area .login-box .login .right-side img {
+  width: 300px;
+  height: auto;
+}
+
+.login-area .login-box .password-field {
+  display: flex;
+  align-items: center;
+}
+
+.login-area .login-box .password-field .show-password {
+  margin-top: 18px;
+  margin-left: -30px;
+  align-items: flex-end;
+  z-index: 999;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
